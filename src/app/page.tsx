@@ -57,7 +57,7 @@ const Submit = (event: React.KeyboardEvent<HTMLTextAreaElement>) => {
       <div
         className=" h-full flex flex-col gap-2 overflow-y-auto py-8 px-3 w-full"
       >
-        we're gonna do something here
+        we`&apos;`re gonna do something here
       </div>
       <div className="relative  w-[80%] bottom-4 flex justify-center">
         <textarea value={theInput} onChange={(event) =>
@@ -76,6 +76,4 @@ const Submit = (event: React.KeyboardEvent<HTMLTextAreaElement>) => {
     <div></div>
   </main>
 );
-
-
 }
